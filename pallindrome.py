@@ -1,0 +1,11 @@
+val=int(input())
+sum=0
+temp=val
+while(val>0):
+    dig=val%10
+    sum=sum*10+dig
+    val=val//10
+if(temp==sum):
+    print("yes")
+else:
+    print("no")
