@@ -1,5 +1,6 @@
-n=int(input())
-k=int(input())
+n,k=(input()).split()
+n=int(n)
+k=int(k)
 lst=input().split()
 s=0
 c=0
